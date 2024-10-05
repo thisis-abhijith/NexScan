@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import re
 import concurrent.futures
-
+#define patterns
 # Define patterns for sensitive data
 SENSITIVE_DATA_PATTERNS = {
     'Email': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',
